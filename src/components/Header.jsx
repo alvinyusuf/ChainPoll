@@ -3,7 +3,7 @@ import { LuWallet } from "react-icons/lu";
 
 export default function Header() {
   return (
-    <div className='flex justify-between items-center py-4 px-14 bg-accent-color font-bold'>
+    <div className='flex justify-between items-center h-20 px-14 bg-accent-color font-bold'>
       <div className="logo-and-nav flex items-center gap-x-10">
         <img src="./logo/ChainPoll-logo-mini.png" alt="" width={64} height={64} />
         <div className='navigations flex gap-x-6'>
@@ -24,7 +24,7 @@ export default function Header() {
         </div>
       </div>
       <div className="wallet">
-        <button className="flex border-2 border-primary-color rounded-xl px-6 py-1 items-center gap-x-2">
+        <button className="flex border-2 border-primary-color rounded-full px-6 py-1 items-center gap-x-2">
           <LuWallet size={30} color="#112D4E" /> Connect Wallet
         </button>
       </div>
