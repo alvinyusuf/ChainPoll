@@ -1,9 +1,11 @@
 import Header from "./components/Header";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <div className='bg-blue-500'>
+    <div className=''>
       <Header/>
+      <Home />
     </div>
   )
 }
