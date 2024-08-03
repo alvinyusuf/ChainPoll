@@ -1,11 +1,12 @@
-import Header from "./components/Header";
-import Home from "./pages/Home";
+import Header from './components/Header'
+import Home from './pages/Home'
 
 export default function App() {
   return (
-    <div className=''>
-      <Header/>
+    <div>
+      <Header />
       <Home />
     </div>
   )
 }
+
